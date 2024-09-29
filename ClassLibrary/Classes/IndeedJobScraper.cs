@@ -5,7 +5,10 @@ using WebScraper.Utils;
 
 namespace WebScraper.Classes
 {
-    internal class IndeedJobScraper : JobScraper, IJobScraper
+    /// <summary>
+    /// Class used to handle scraping of job data from Indeed
+    /// </summary>
+    public class IndeedJobScraper : JobScraper, IJobScraper
     {
 
         public override string JobIdCssSelector { get; }
